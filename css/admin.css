@@ -1,0 +1,114 @@
+
+
+/* Joueeur.css */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(212, 222, 213, 0.88);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(149, 154, 148, 0.88);
+    margin-top: 100px;
+}
+
+.login {
+    max-width: 877px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    border: 1px solid #DFDBE9;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #959A94;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #959A94;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+button:hover {
+    background-color: #7e8180;
+}
+
+#line1 {
+    position: absolute;
+    width: 1024px;
+    height: 0px;
+    left: 326px;
+    top: 0px;
+    border: 1px solid #959A94;
+    transform: rotate(90deg);
+}
+
+#quiz2 {
+    position: absolute;
+    width: 326px;
+    height: 295px;
+    left: 0px;
+    top: 0px;
+    background: url(img3.png);
+    mix-blend-mode: color-burn;
+    backdrop-filter: blur(2px);
+}
+
+#wireframe2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1114px;
+    height: 943px;
+    left: calc(50% - 1114px/2 + 163px);
+    top: calc(50% - 943px/2 - 40.5px);
+    background: rgba(255, 255, 255, 0.11);
+    mix-blend-mode: multiply;
+    border: 1px solid #DFDBE9;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+
+#line3 {
+    position: absolute;
+    width: 1105px;
+    height: 0px;
+    left: 9px;
+    top: 936px;
+    border: 1px solid #000000;
+}
+
+#line9 {
+    position: absolute;
+    width: 63px;
+    height: 0px;
+    left: 636px;
+    top: 46px;
+    border: 1px solid #959A94;
+    transform: rotate(90deg);
+}
+
+#line4 {
+    position: absolute;
+    width: 326px;
+    height: 0px;
+    left: 0px;
+    top: 267px;
+    border: 1px solid #000000;
+}
