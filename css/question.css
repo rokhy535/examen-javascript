@@ -134,6 +134,7 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+ 
 }
 
 #score-container {
@@ -158,4 +159,7 @@
   margin-top: 0;
   margin-bottom: 40px;
   margin: 0 0 40px 20px;
+}
+body{
+  background-color:rgba(212, 222, 213, 0.88);
 }
