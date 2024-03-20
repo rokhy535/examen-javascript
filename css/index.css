@@ -1,8 +1,11 @@
 input{
     padding: 1px 7px;
-    border-radius: 4px;
+    border-radius: 25px;
     font-weight: 700;
     border: 1px solid black;
+  height: 35px;
+    
+     
 }
 label{
     font-weight: 800;
@@ -24,7 +27,7 @@ p{
 .maindiv{
     width: 100vw;
     height: 100vh;
-    background-image: url(../css/image1.jpg);
+    background-image: url(../css/tl5.jpg);
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -40,4 +43,9 @@ p{
     border: 2px solid #080808;
     padding-left: 30px;
 }
- 
+ button{
+    border-radius: 25px;
+     margin-left: 150px;
+     margin-top: 50px;
+     height: 25px;
+ }
