@@ -1,8 +1,9 @@
 <?php
-$dbhost = 'localhost';
-$dbname = 'quiz';
-$dbuser = 'root';
-$dbpswd = '';
+$dbhost = 'mysql-rokhayadiaw.alwaysdata.net';
+$dbname = 'Rokhayadiaw_java';
+$dbuser = '352837';
+$dbpswd = 'passe123';
+
 try {
     $connect = new PDO('mysql:host='.$dbhost.';dbname='.$dbname,$dbuser,$dbpswd,
     array(

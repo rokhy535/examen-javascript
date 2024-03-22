@@ -1,8 +1,8 @@
 <?php
-$dbhost = 'localhost';
-$dbname = 'quiz';
-$username = 'root'; 
-$password = ''; 
+$dbhost = 'mysql-rokhayadiaw.alwaysdata.net';
+$dbname = 'Rokhayadiaw_java';
+$dbuser = '352837';
+$dbpswd = 'passe123';
 
 try {
     $pdo = new PDO("mysql:host=$dbhost;dbname=$dbname", $username, $password, array(
